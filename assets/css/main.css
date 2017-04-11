@@ -1,0 +1,267 @@
+@import url("../fonts/abodoninova/stylesheet.css");
+@import url("../fonts/gothampro/stylesheet.css");
+@import url("../fonts/ptserif/stylesheet.css");
+@import url("normalize.css");
+@import url("flexbox-grid.css");
+@import url("../js/vendors/slickslider/slick.css");
+@import url("../js/vendors/slickslider/slick-theme.css");
+
+
+
+/*=================================
+globals
+================================= */
+/* Older browsers */
+html {
+    font-size: 16px;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/* Modern browsers only need this one */
+
+@media screen and (max-width: 25em) {
+    html {
+        font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+}
+
+/* Safari <8 and IE <11 */
+@media screen and (max-width: 25em) {
+    html {
+        font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+}
+
+@media screen and (max-width: 50em) {
+    html {
+        font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Gotham Pro';
+}
+
+
+/*=================================
+Elements
+================================= */
+
+/*Typography
+
+ */
+/*Tables
+
+ */
+/*
+Buttons
+ */
+
+.e-btn{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 2.875rem;
+    padding: 0.85rem 2.5rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.e-btn--green{
+    background-image: url("../img/intro__btn-bacground.png");
+}
+
+.e-btn--red{
+    background-image: url("../img/red__btn-bacground.png");
+}
+
+/*
+Forms
+ */
+/*
+Icons
+ */
+/*
+Labels
+ */
+/*Codes
+
+ */
+/*
+Media
+ */
+
+/*=================================
+Layout
+ =================================*/
+/*=================================
+Components
+ =================================*/
+/*
+header
+ */
+/*
+footer
+ */
+/*
+navbar
+ */
+
+
+.c-slider__img{
+    width: 100%;
+}
+
+.c-slider__item{
+    position: absolute;
+    max-width: 1085px;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -442px;
+}
+
+
+/*=================================
+Utilities
+================================= */
+
+.u-font--abodoninova{
+    font-family: 'a_BodoniNova';
+}
+
+.u-font--gotham{
+    font-family: 'Gotham Pro';
+}
+
+.u-font--ptserif{
+    font-family: 'PT Serif';
+}
+
+.u-is--block{
+    display: block;
+}
+
+.u-border{
+    border: 1rem solid #fff;
+}
+
+
+.sprite-yuo-have-ornament, .sprite-work-with-us-icon-big, .sprite-manager-icon-left, .sprite-manager-icon-right, .sprite-work-with-us-icon-small-7,
+.sprite-work-with-us-icon-small-1, .sprite-reviews-icon-white, .sprite-reviews-icon, .sprite-work-with-us-icon-small-3, .sprite-work-with-us-icon-small-6,
+.sprite-work-with-us-icon-small-9, .sprite-work-with-us-icon-small-2, .sprite-work-with-us-icon-small-5, .sprite-work-with-us-icon-small-8, .sprite-work-with-us-icon-small-4,
+.sprite-kor-icon {
+    display: inline-block;
+    background: url('../img/sprite.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.sprite-yuo-have-ornament {
+    background-position: -0px -0px;
+    width: 212px;
+    height: 16px;
+}
+
+.sprite-work-with-us-icon-big {
+    background-position: -0px -16px;
+    width: 77px;
+    height: 83px;
+}
+
+.sprite-manager-icon-left {
+    background-position: -77px -16px;
+    width: 37px;
+    height: 25px;
+}
+
+.sprite-manager-icon-right {
+    background-position: -114px -16px;
+    width: 37px;
+    height: 27px;
+}
+
+.sprite-work-with-us-icon-small-7 {
+    background-position: -151px -16px;
+    width: 37px;
+    height: 16px;
+}
+
+.sprite-work-with-us-icon-small-1 {
+    background-position: -151px -32px;
+    width: 33px;
+    height: 32px;
+    display: block;
+}
+
+.sprite-reviews-icon-white {
+    background-position: -77px -41px;
+    width: 31px;
+    height: 46px;
+}
+
+.sprite-reviews-icon {
+    background-position: -108px -43px;
+    width: 31px;
+    height: 22px;
+}
+
+.sprite-work-with-us-icon-small-3 {
+    background-position: -139px -64px;
+    width: 31px;
+    height: 27px;
+    display: block;
+}
+
+.sprite-work-with-us-icon-small-6 {
+    background-position: -170px -64px;
+    width: 31px;
+    height: 32px;
+    display: block;
+}
+
+.sprite-work-with-us-icon-small-9 {
+    background-position: -108px -65px;
+    width: 31px;
+    height: 23px;
+    display: block;
+}
+
+.sprite-work-with-us-icon-small-2 {
+    background-position: -184px -32px;
+    width: 26px;
+    height: 31px;
+    display: block;
+}
+
+.sprite-work-with-us-icon-small-5 {
+    background-position: -77px -87px;
+    width: 26px;
+    height: 29px;
+    display: block;
+}
+
+.sprite-work-with-us-icon-small-8 {
+    background-position: -103px -88px;
+    width: 25px;
+    height: 31px;
+    display: block;
+}
+
+.sprite-work-with-us-icon-small-4 {
+    background-position: -128px -91px;
+    width: 23px;
+    height: 31px;
+    display: block;
+}
+
+.sprite-kor-icon {
+    background-position: -151px -96px;
+    width: 20px;
+    height: 20px;
+}
